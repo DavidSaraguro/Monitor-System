@@ -14,17 +14,17 @@ class EmailNotifier:
 
 
     # Function Name: send_email
-    # Description: The content of the email sent from monitosystem@gmail.com to the user is specified.
+    # Description: The content of the email sent from senderaddress@gmail.com to the user is specified.
     # Parameters: failures
     # Returns: None
     
     def send_email(self,failures):
         try:
             email_subject = "WARNING: Radiobase error" 
-            sender_email_address = "monitorsystemrb@gmail.com" 
-            receiver_email_address = "dsaraguro@gmail.com" 
+            sender_email_address = "senderaddress@gmail.com" 
+            receiver_email_address = "receiberaddress@gmail.com" 
             email_smtp = "smtp.gmail.com" 
-            email_password = "2468RB001" 
+            email_password = "xxxxxxxx" 
 
             # Create an email message object 
             email_notifier = EmailMessage() 
